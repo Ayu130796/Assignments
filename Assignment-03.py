@@ -8,10 +8,13 @@ Problem Statement: Write a Python program that:
 
 '''
 
-from math import factorial
-a = int (input('Enter a number: '))
-fact = factorial(a)
-print(fact)
+def fact (n)
+    if n < 2:
+        return 1
+    else:
+        return n * fact(n-1)
+result = fact(n)
+print(result)
 
 '''
 Task 2: Using the Math Module for Calculations
