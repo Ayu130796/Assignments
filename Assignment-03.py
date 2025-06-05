@@ -7,13 +7,13 @@ Problem Statement: Write a Python program that:
 3.   Calls the function with a sample number and prints the output.
 
 '''
-
-def fact (n)
-    if n < 2:
+a = int (input('Enter a number: '))
+def fact (a)
+    if a < 2:
         return 1
     else:
-        return n * fact(n-1)
-result = fact(n)
+        return a * fact(a-1)
+result = fact(a)
 print(result)
 
 '''
