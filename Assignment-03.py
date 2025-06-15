@@ -8,7 +8,7 @@ Problem Statement: Write a Python program that:
 
 '''
 a = int (input('Enter a number: '))
-def fact (a)
+def fact (a):
     if a < 2:
         return 1
     else:
